@@ -88,7 +88,7 @@ class Denah {
     }
 
     render = () => {
-        const groundColor = "black"
+        const groundColor = "#E9E9E9"
         const buildingColor = "green"
         let size=[this.data[0].length,this.data.length]
         const blockWidth = this.width/size[0]
