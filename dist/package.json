@@ -1,0 +1,25 @@
+{
+    "name": "@opendenah/opendenahjs",
+    "version": "0.0.0",
+    "description": "Javascript library to generate your own building map",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OpenDenah/OpenDenahJs.git"
+    },
+    "files": [
+        "lib", "CHANGELOG.md", "LICENSE",
+        "package.json", "README.md"
+    ],
+    "keywords": [
+        "opendenah", "opendenahjs", "denah"
+    ],
+    "author": "OpenDenah",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OpenDenah/OpenDenahJs/issues"
+    },
+    "homepage": "https://github.com/OpenDenah/OpenDenahJs#readme"
+}

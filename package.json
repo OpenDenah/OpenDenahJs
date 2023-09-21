@@ -1,0 +1,13 @@
+{
+  "name": "opendenahjs",
+  "version": "0.0.0",
+  "repository": "git@github.com:OpenDenah/OpenDenahJs.git",
+  "author": "OpenDenah <iqbaleff214@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
