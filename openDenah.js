@@ -59,7 +59,6 @@ class Denah {
   
     myMouseDown = (pos) => {
         this.isDown = true
-        console.log("a")
         this.globalPos = pos.srcElement.id + ','
         this.dataTemp = JSON.parse(JSON.stringify(this.data))
     }
@@ -68,7 +67,6 @@ class Denah {
         if (this.isDown){
             const newCoor = this.globalPos.split(",")
             const thisCoor = pos.srcElement.id.split(",")
-            // this.printRoom(this.dataTemp)
             this.data = JSON.parse(JSON.stringify(this.dataTemp))
             this.render()
             this.paintRoom([newCoor[0],newCoor[1]],[thisCoor[0],thisCoor[1]])
@@ -80,7 +78,7 @@ class Denah {
         this.globalPos += pos.srcElement.id
         const newCoor = this.globalPos.split(",")
         this.paintRoom([newCoor[0],newCoor[1]],[newCoor[2],newCoor[3]])
-        
+        this.printRoom(this.data)
     }
 
     getTile = (color, blockWidth, position) => {

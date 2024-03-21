@@ -2,7 +2,7 @@
     user-select: none;
     display:inline-block;
     box-shadow:inset 0px 0px 0px 0px red;
-    transition: all ease-out .3s;
+    /* transition: all ease-out .1s; */
 }
 
 .denahBlock:hover{
